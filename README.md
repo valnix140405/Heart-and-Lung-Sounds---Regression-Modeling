@@ -8,18 +8,24 @@ Este proyecto utiliza técnicas de procesamiento de señales de audio y aprendiz
 - Análisis exploratorio de datos (EDA) completo.
 - Visualizaciones avanzadas de desempeño del modelo.
 
-## Visualizaciones Añadidas
-1.  **Histograma de Duración**: Distribución de la longitud de las muestras.
-2.  **Importancia de Características**: Identificación de los coeficientes MFCC más relevantes.
-3.  **Matriz de Confusión Normalizada**: Análisis de precisión por clase en porcentaje.
-4.  **Curva Precision-Recall**: Evaluación del balance entre precisión y sensibilidad.
-
 ## Requisitos
 - Python 3.x
 - Jupyter Notebook / Lab
 - Librerías: `librosa`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`
 
 ## Uso
-1. Clona el repositorio.
-2. Asegúrate de tener los archivos `.csv` y las carpetas de audio correspondientes.
-3. Abre y ejecuta `Proyecto_Integrador_Audio_Final.ipynb`.
+
+1. **Clona el repositorio**:
+   ```bash
+   git clone https://github.com/valnix140405/Heart-and-Lung-Sounds---Regression-Modeling.git
+   ```
+2. **Configura los datos**:
+   - El repositorio incluye los archivos `.csv` con los metadatos.
+   - Debido a su tamaño, las carpetas de audio (`HS/`, `LS/`, `Mix/`) no están en GitHub.
+   - **Debes crear estas carpetas** en el directorio raíz y colocar los archivos `.wav` correspondientes dentro de ellas para que el código funcione.
+3. **Instala las dependencias**:
+   ```bash
+   pip install librosa pandas numpy matplotlib seaborn scikit-learn
+   ```
+4. **Ejecuta el notebook**: Abre `Proyecto_Integrador_Audio_Final.ipynb` en Jupyter.
+
