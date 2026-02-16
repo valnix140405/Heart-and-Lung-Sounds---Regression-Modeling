@@ -1,0 +1,19 @@
+# Ingorer files for Python/Jupyter Project
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+env/
+.ipynb_checkpoints
+*.wav
+HS/
+LS/
+Mix/
+HS.csv
+LS.csv
+Mix.csv
+modify_notebook.py
+add_pr_curve.py
