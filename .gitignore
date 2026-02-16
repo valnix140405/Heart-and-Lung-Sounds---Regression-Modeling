@@ -12,8 +12,6 @@ env/
 HS/
 LS/
 Mix/
-HS.csv
-LS.csv
-Mix.csv
 modify_notebook.py
 add_pr_curve.py
+
