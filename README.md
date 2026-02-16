@@ -19,13 +19,9 @@ Este proyecto utiliza técnicas de procesamiento de señales de audio y aprendiz
    ```bash
    git clone https://github.com/valnix140405/Heart-and-Lung-Sounds---Regression-Modeling.git
    ```
-2. **Configura los datos**:
-   - El repositorio incluye los archivos `.csv` con los metadatos.
-   - Debido a su tamaño, las carpetas de audio (`HS/`, `LS/`, `Mix/`) no están en GitHub.
-   - **Debes crear estas carpetas** en el directorio raíz y colocar los archivos `.wav` correspondientes dentro de ellas para que el código funcione.
-3. **Instala las dependencias**:
+2. **Instala las dependencias**:
    ```bash
    pip install librosa pandas numpy matplotlib seaborn scikit-learn
    ```
-4. **Ejecuta el notebook**: Abre `Proyecto_Integrador_Audio_Final.ipynb` en Jupyter.
+3. **Ejecuta el notebook**: Abre `Proyecto_Integrador_Audio_Final.ipynb` en Jupyter. Todo está incluido (csv y audios) para que funcione de inmediato.
 

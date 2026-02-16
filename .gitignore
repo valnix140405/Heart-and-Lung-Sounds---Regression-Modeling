@@ -8,10 +8,7 @@ venv/
 ENV/
 env/
 .ipynb_checkpoints
-*.wav
-HS/
-LS/
-Mix/
 modify_notebook.py
 add_pr_curve.py
+
 
