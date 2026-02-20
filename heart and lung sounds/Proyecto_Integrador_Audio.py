@@ -30,13 +30,13 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # --- CONFIGURACIÓN ---
-FILE_HS_CSV = 'HS.csv'
-FILE_LS_CSV = 'LS.csv'
-FILE_MIX_CSV = 'Mix.csv'
+FILE_HS_CSV = os.path.join('data', 'HS.csv')
+FILE_LS_CSV = os.path.join('data', 'LS.csv')
+FILE_MIX_CSV = os.path.join('data', 'Mix.csv')
 
-DIR_HS = os.path.join('HS', 'HS')
-DIR_LS = os.path.join('LS', 'LS')
-DIR_MIX = os.path.join('Mix', 'Mix')
+DIR_HS = os.path.join('data', 'HS', 'HS')
+DIR_LS = os.path.join('data', 'LS', 'LS')
+DIR_MIX = os.path.join('data', 'Mix', 'Mix')
 
 # %% [markdown]
 # ## 2. Carga y Preparación de Datos
